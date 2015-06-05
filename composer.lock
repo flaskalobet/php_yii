@@ -637,16 +637,16 @@
         },
         {
             "name": "fzaninotto/faker",
-            "version": "v1.5.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "d0190b156bcca848d401fb80f31f504f37141c8d"
+                "reference": "010c7efedd88bf31141a02719f51fb44c732d5a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d0190b156bcca848d401fb80f31f504f37141c8d",
-                "reference": "d0190b156bcca848d401fb80f31f504f37141c8d",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/010c7efedd88bf31141a02719f51fb44c732d5a0",
+                "reference": "010c7efedd88bf31141a02719f51fb44c732d5a0",
                 "shasum": ""
             },
             "require": {
@@ -656,18 +656,14 @@
                 "phpunit/phpunit": "~4.0",
                 "squizlabs/php_codesniffer": "~1.5"
             },
-            "suggest": {
-                "ext-intl": "*"
-            },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "1.5.x-dev"
-                }
+                "branch-alias": []
             },
             "autoload": {
-                "psr-4": {
-                    "Faker\\": "src/Faker/"
+                "psr-0": {
+                    "Faker": "src/",
+                    "Faker\\PHPUnit": "test/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -685,7 +681,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2015-05-29 06:29:14"
+            "time": "2014-06-04 14:43:02"
         },
         {
             "name": "phpspec/php-diff",
