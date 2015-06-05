@@ -1,1 +1,2 @@
 http://forum.videohelp.com/threads/277807-Useful-FFmpeg-Syntax-Examples
+http://ksloan.net/watermarking-videos-from-the-command-line-using-ffmpeg-filters/
